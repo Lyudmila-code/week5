@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    border: 1px solid black;
+    width: 100%;
+    min-height: 99vh;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  header {
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: auto;
+    height: 10vh;
+    flex: 0 0 auto;
+    align-content: stretch;
+    justify-content: center;
+  }
+  main {
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: auto;
+    flex: 1 0 auto;
+    align-content: stretch;
+  }
+  footer {
+    background-color: yellowgreen;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: auto;
+    height: 20vh;
+    flex: 0 0 auto;
+    align-content: stretch;
+  }
+  .container {
+    display: flex;
+    border: 1px solid black;
+    background-color: aliceblue;
+    align-self: center;
+    align-items: stretch;
+    margin: 7px;
+    padding: 5px;
+    width: 5%;
+    height: 10vh;
+    flex: 1 0 auto;
+  }
+  .mainconteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-self: auto;
+    order: 0;
+  }
+  aside {
+    background-color: bisque;
+    justify-content: center;
+    display: flex;
+    flex: 1 0 auto;
+    width: 30%;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+    background-color: fuchsia;
+    justify-content: center;
+    width: 90%;
+    height: 30vh;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 3px;
+    background-color: pink;
+    justify-content: center;
+    align-items: start;
+    align-self: flex-end;
+    width: 40%;
+    height: 10vh;
+  }
+  .cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 0 auto;
+    width: 70%;
+    align-items: start;
+  }
